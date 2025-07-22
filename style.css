@@ -404,3 +404,29 @@ html {
   margin-top: 40px;   
 }
 
+
+.download-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1e3a8a;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.download-btn i {
+  margin-right: 8px;
+}
+
+.download-btn:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+.cv-button-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
